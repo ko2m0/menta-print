@@ -1,4 +1,12 @@
 {
+  "name": "menta-print",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio web oficial de Menta Print",
+  "scripts": {
+    "dev": "tailwindcss -i ./css/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./css/input.css -o ./dist/output.css --minify"
+  },
   "devDependencies": {
     "autoprefixer": "^10.5.2",
     "postcss": "^8.5.19",
