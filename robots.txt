@@ -1,0 +1,19 @@
+# robots.txt — Menta Print
+# https://mentaprint.mx
+
+User-agent: *
+Allow: /
+
+# Permitir todos los recursos públicos
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+Allow: /dist/
+Allow: /favicon/
+
+# Sitemap
+Sitemap: https://mentaprint.mx/sitemap.xml
+
+# Prevenir indexación de carpetas internas innecesarias
+Disallow: /node_modules/
+Disallow: /.vscode/

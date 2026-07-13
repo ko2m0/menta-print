@@ -1,0 +1,54 @@
+{
+  "name": "Menta Print — Diseño que respira",
+  "short_name": "Menta Print",
+  "description": "Estudio creativo boutique especializado en productos impresos personalizados, mercancía de marca y kits para eventos.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F8FAF8",
+  "theme_color": "#ADE4B4",
+  "lang": "es-MX",
+  "categories": ["business", "design", "productivity"],
+  "icons": [
+    {
+      "src": "/favicon/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Pide una cotización",
+      "short_name": "Cotizar",
+      "description": "Cuéntanos tu idea y recibe una cotización personalizada.",
+      "url": "/#contacto",
+      "icons": [
+        {
+          "src": "/favicon/favicon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
